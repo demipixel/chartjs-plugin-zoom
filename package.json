@@ -13,7 +13,7 @@
   "exports": {
     ".": {
       "types": "./dist/src/index.d.ts",
-      "import": "./dist/chartjs-plugin-zoom-esm.js",
+      "import": "./dist/chartjs-plugin-zoom.esm.js",
       "require": "./dist/chartjs-plugin-zoom.js"
     }
   },
