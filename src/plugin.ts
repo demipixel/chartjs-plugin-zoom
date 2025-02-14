@@ -100,8 +100,7 @@ export default {
   ): boolean | void {
     const state = getState(chart)
     if (isZoomingOrPanningState(state)) {
-      // cancel any event handling while panning or dragging
-      return false
+      return
     }
     // cancel the next click or mouseup after drag or pan
     if (event.type === 'click' || event.type === 'mouseup') {
